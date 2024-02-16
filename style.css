@@ -1,11 +1,27 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+.a-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.43)), url(./images/groom-bride.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 540px;
+    color: #fff;
+    text-align: center;
 }
 
-.container{
+.text{
+    padding: 15px;
+}
+
+.date{
+    margin-top: 200px;
+}
+.b-container{
+    background-image:linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%) ;
+    background-color: #FBAB7E;
     height: 300px;
-    width: 100%;
-    background-color: aquamarine;
+    font-weight: bold;
+    text-align: center;
+
 }
