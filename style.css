@@ -20,8 +20,33 @@
 .b-container{
     background-image:linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%) ;
     background-color: #FBAB7E;
-    height: 300px;
+    height: 4%;
     font-weight: bold;
     text-align: center;
 
+}
+
+.groom-name{
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    font-size: 80px;
+    font-weight: lighter;
+}
+.mainphoto{
+    margin: auto auto;
+    height: 300px;
+    width: 300px;
+}
+.bride-name{
+    right: 30px;
+    top: 30px;
+    position: absolute;
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+.c-conatiner{
+    background-color: antiquewhite;
+    height: 300px;
 }
