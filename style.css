@@ -47,6 +47,35 @@
 }
 
 .c-conatiner{
-    background-color: antiquewhite;
+    background-color: rgb(213, 162, 96);
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
     height: 300px;
+    width: 500px;
+    font-weight: bolder;
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 8px;
+}
+
+.img{
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+}
+
+.snehal-img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 0px 0px 600px 0px;
+}
+
+.d-conatiner{
+    
 }
