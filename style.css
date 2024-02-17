@@ -93,6 +93,7 @@
 .e-conatiner{
     background-color: brown;
     height: 400px;
+    display: flex;
     flex-wrap: wrap;
 
 }
@@ -174,4 +175,42 @@
       60% {transform: translateY(-15px);}
   }
   
+  /* Responsive ness */
   
+  @media(max-width: 440px){
+    .groom-name{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .mainphoto{
+        height: 200px;
+        width: 200px;
+    }
+    .bride-name{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .info{
+        font-size: 30px;
+    }
+    .snehal-img{
+        border-radius: 20px;
+        height: 350px;
+        width: 350px;
+    }
+    .akshay-img{
+        border-radius: 20px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .d-conatiner{
+        margin-top: 400px;
+    }
+
+    .e-container{
+        margin-top: 310px;
+    }
+
+  }
