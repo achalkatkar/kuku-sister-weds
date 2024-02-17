@@ -88,3 +88,64 @@
     object-fit: cover;
     border-radius: 0px 0px 0px 600px;
 }
+
+.e-conatiner{
+    background-color: brown;
+    height: 400px;
+
+}
+.haldi-container{
+    height: 390px;
+    background-color: cadetblue;
+    width: 50%;
+    text-align: center;
+    background-image: url(./images/haldi-content.jpg);
+    background-repeat: no-repeat;
+    background-size: 770px 400px ;
+}
+
+.shadi-container{
+    height: 390px;
+    background-color: rgb(64, 71, 173);
+    width: 50%;
+    text-align: center;
+    background-image: url(./images/wedding.jpg);
+    background-repeat: no-repeat;
+    background-size: 770px 400px ;
+    margin-bottom: 90px;
+}
+
+.h-date{
+    line-height: 53px;
+}
+
+.sim-div{
+    background-color: rgb(0, 0, 0);
+    height: 110px;
+    align-items: center;
+    text-align: center;
+}
+
+.f-container{
+  justify-content: space-around;
+  height: 50px;
+  border: none;
+  margin-bottom: 50px;
+ 
+}
+
+.call-btn{
+    background-color: gray;
+    border-radius: 5px;
+    border: none;
+    height: 34px;
+    color: white;
+}
+
+.whatapp-btn{
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    height: 34px;
+    color: white;
+}
