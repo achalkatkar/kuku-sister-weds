@@ -79,6 +79,7 @@
 .d-conatiner{
     height: 450px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -92,6 +93,7 @@
 .e-conatiner{
     background-color: brown;
     height: 400px;
+    flex-wrap: wrap;
 
 }
 .haldi-container{
@@ -128,6 +130,7 @@
 
 .f-container{
   justify-content: space-around;
+  flex-wrap: wrap;
   height: 50px;
   border: none;
   margin-bottom: 50px;
